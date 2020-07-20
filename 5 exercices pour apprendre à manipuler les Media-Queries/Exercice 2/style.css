@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: .8em;
+}
+
+
+/** A COMPLETER */
+
+@media screen and (min-width: 794px) and (max-width: 1019px) {
+    body {
+        background-color: rgb(113, 162, 218);
+    }
+    figure {
+        display: inline-block;
+        margin: 5px;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        background-color: rgb(127, 214, 127);
+    }
+    figure {
+        display: inline-block;
+        margin: 5px;
+        width: 30%;
+    }
+}
